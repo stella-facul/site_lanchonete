@@ -1,0 +1,114 @@
+.alinhamentor{
+    text-align: right;
+    
+}
+.alinhamentol2{
+    text-align: left;
+    text-justify: left;
+}
+.alinhamentol{
+    padding-left: 200px;
+width: 500px;
+}
+.botao1{
+    color: black;
+    border: none;
+    background-color: none;
+    padding: 0;
+    outline: none;
+    cursor: pointer;
+    position: 100 30 20 10;
+
+}
+.box2{
+    width: 135px; 
+    height: 46px; 
+    background: #FF570A; 
+    border-radius: 8px
+}
+.link1{
+    color: black;
+    text-decoration: none;
+}
+.botao2{
+    width: 135.72px; 
+    height: 46.79px; 
+    background: #FF570A; 
+    align-items: center;
+    text-align: center;
+    
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+.texto-sobreposto {
+    position: absolute;
+    top: 0%;
+    right: 382px;
+    transform: translate(-50%, -50%);
+    z-index: 2; /* Para garantir que o texto fique acima do retângulo */
+}
+.texto-sobreposto2 {
+    position: absolute;
+    top: 0%;
+    right: 617px;
+    transform: translate(-50%, -50%);
+    z-index: 2; 
+}
+.texto-sobreposto3 {
+    position: absolute;
+    top: 0%;
+    right: 1120px;
+    width: 260px;
+    transform: translate(-50%, -50%);
+    z-index: 2; 
+}
+.texto-sobreposto4 {
+text-align: center;
+margin-right: 370px;    
+z-index: 2;
+width: 90px;
+}
+.text1 {
+    text-align: center; color: rgb(0, 0, 0); 
+    font-size: 20px; 
+    font-family: Josefin Sans; 
+    word-wrap: break-word;
+    margin-top: 680px;
+    
+}
+.text2 {
+    text-align: justify; color: rgb(0, 0, 0); 
+    font-size: 10px; 
+    font-family: Josefin Sans; 
+    word-wrap: break-word;
+    margin-top: 6px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.boxmenu {
+    background-color: #D72638;
+    height: 7vh;
+    color: #fff; /* Defina uma cor de texto diferente, por exemplo, branco (#fff) */
+    width: 100%; /* Adicione esta linha */
+}
+.box1 {
+    background-color: #12355BD4;
+    width: 100%; /* Defina a largura como 100% para cobrir toda a largura da página */
+    height: 660px;
+    margin-top: 0px; /* Espaço entre .boxmenu e .box1 */
+}
+
+
+
+
+
