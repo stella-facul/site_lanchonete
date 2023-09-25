@@ -102,7 +102,7 @@
     position: absolute;
     object-fit: cover;
     border-radius: 81px;
-    rotate: -7.99px;
+    rotate: 7.99deg;
 }
 
 .desktop .img {
@@ -113,7 +113,7 @@
     position: absolute;
     object-fit: cover;
     border-radius: 81px;
-    rotate: -7.99px;
+    rotate: 7.99deg;
 }
 
 .desktop .image-2 {
@@ -124,7 +124,7 @@
     position: absolute;
     object-fit: cover;
     border-radius: 81px;
-    rotate: -7.99px;
+    rotate: 7.99deg;
 }
 
 .desktop .image-3 {
@@ -135,7 +135,7 @@
     position: absolute;
     object-fit: cover;
     border-radius: 81px;
-    rotate: -7.99px;
+    rotate: 7.99deg;
 }
 
 .desktop .veja-no-instagram {
@@ -425,7 +425,7 @@
     left: 0;
     font-family: "Josefin Sans-SemiBold", Helvetica;
     font-weight: 600;
-    color: #ffffff;
+    color: #000000;
     font-size: 20px;
     text-align: center;
     letter-spacing: 0;
@@ -438,10 +438,11 @@
     width: 565px;
     top: 37px;
     left: 20px;
-    font-family: "Josefin Sans-Light", Helvetica;
-    font-weight: 300;
-    color: #ffffff;
+    font-family: "Josefin Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
     font-size: 15px;
+    text-align: justify;
     letter-spacing: 0;
     line-height: normal;
 }
