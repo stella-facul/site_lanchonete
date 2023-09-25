@@ -1,114 +1,728 @@
-.alinhamentor{
-    text-align: right;
-    
-}
-.alinhamentol2{
-    text-align: left;
-    text-justify: left;
-}
-.alinhamentol{
-    padding-left: 200px;
-width: 500px;
-}
-.botao1{
-    color: black;
-    border: none;
-    background-color: none;
-    padding: 0;
-    outline: none;
-    cursor: pointer;
-    position: 100 30 20 10;
-
-}
-.box2{
-    width: 135px; 
-    height: 46px; 
-    background: #FF570A; 
-    border-radius: 8px
-}
-.link1{
-    color: black;
-    text-decoration: none;
-}
-.botao2{
-    width: 135.72px; 
-    height: 46.79px; 
-    background: #FF570A; 
-    align-items: center;
-    text-align: center;
-    
-}
-body {
-    margin: 0;
-    padding: 0;
+.desktop {
+    background-color: #ffffff;
     display: flex;
-    height: 100vh;
-    background-color: #f0f0f0;
-}
-.texto-sobreposto {
-    position: absolute;
-    top: 0%;
-    right: 382px;
-    transform: translate(-50%, -50%);
-    z-index: 2; /* Para garantir que o texto fique acima do retângulo */
-}
-.texto-sobreposto2 {
-    position: absolute;
-    top: 0%;
-    right: 617px;
-    transform: translate(-50%, -50%);
-    z-index: 2; 
-}
-.texto-sobreposto3 {
-    position: absolute;
-    top: 0%;
-    right: 1120px;
-    width: 260px;
-    transform: translate(-50%, -50%);
-    z-index: 2; 
-}
-.texto-sobreposto4 {
-text-align: center;
-margin-right: 370px;    
-z-index: 2;
-width: 90px;
-}
-.text1 {
-    text-align: center; color: rgb(0, 0, 0); 
-    font-size: 20px; 
-    font-family: Josefin Sans; 
-    word-wrap: break-word;
-    margin-top: 680px;
-    
-}
-.text2 {
-    text-align: justify; color: rgb(0, 0, 0); 
-    font-size: 10px; 
-    font-family: Josefin Sans; 
-    word-wrap: break-word;
-    margin-top: 6px;
-}
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    justify-content: center;
     width: 100%;
 }
 
-.boxmenu {
-    background-color: #D72638;
-    height: 7vh;
-    color: #fff; /* Defina uma cor de texto diferente, por exemplo, branco (#fff) */
-    width: 100%; /* Adicione esta linha */
-}
-.box1 {
-    background-color: #12355BD4;
-    width: 100%; /* Defina a largura como 100% para cobrir toda a largura da página */
-    height: 660px;
-    margin-top: 0px; /* Espaço entre .boxmenu e .box1 */
+.desktop .div {
+    background-color: #ffffff;
+    width: 1396px;
+    height: 3364px;
+    position: relative;
 }
 
+.desktop .overlap {
+    position: absolute;
+    width: 1396px;
+    height: 1447px;
+    top: 736px;
+    left: 0;
+}
 
+.desktop .rectangle {
+    position: absolute;
+    width: 1393px;
+    height: 729px;
+    top: 0;
+    left: 0;
+}
 
+.desktop .rectangle-2 {
+    position: absolute;
+    width: 1396px;
+    height: 720px;
+    top: 727px;
+    left: 0;
+    background-color: #0e3867d4;
+}
 
+.desktop .n-s-te-aproximamos {
+    position: absolute;
+    top: 35px;
+    left: 555px;
+    font-family: "Josefin Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #f7eeff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
 
+.desktop .text-wrapper {
+    font-family: "Josefin Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #f7eeff;
+    font-size: 20px;
+    letter-spacing: 0;
+}
+
+.desktop .span {
+    font-family: "Jomhuria-Regular", Helvetica;
+    font-size: 40px;
+}
+
+.desktop .text-wrapper-2 {
+    font-family: "Koulen-Regular", Helvetica;
+    font-size: 32px;
+}
+
+.desktop .group {
+    position: absolute;
+    width: 880px;
+    height: 559px;
+    top: 145px;
+    left: 267px;
+}
+
+.desktop .group-2 {
+    position: absolute;
+    width: 878px;
+    height: 471px;
+    top: 0;
+    left: 0;
+}
+
+.desktop .overlap-group {
+    position: absolute;
+    width: 432px;
+    height: 423px;
+    top: 0;
+    left: 0;
+}
+
+.desktop .rectangle-3 {
+    position: absolute;
+    width: 204px;
+    height: 223px;
+    top: 187px;
+    left: 214px;
+    background-color: #d9d9d9;
+    transform: rotate(7.99deg);
+}
+
+.desktop .rectangle-4 {
+    position: absolute;
+    width: 204px;
+    height: 223px;
+    top: 13px;
+    left: 15px;
+    background-color: #d9d9d9;
+    transform: rotate(8.17deg);
+}
+
+.desktop .overlap-group-2 {
+    position: absolute;
+    width: 427px;
+    height: 452px;
+    top: 19px;
+    left: 451px;
+}
+
+.desktop .rectangle-5 {
+    position: absolute;
+    width: 204px;
+    height: 223px;
+    top: 216px;
+    left: 209px;
+    background-color: #d9d9d9;
+    transform: rotate(7.99deg);
+}
+
+.desktop .veja-no-instagram {
+    position: absolute;
+    top: 543px;
+    left: 233px;
+    font-family: "Josefin Sans-Light", Helvetica;
+    font-weight: 300;
+    color: transparent;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.desktop .text-wrapper-3 {
+    font-family: "Josefin Sans-LightItalic", Helvetica;
+    font-style: italic;
+    color: #ffffff;
+}
+
+.desktop .text-wrapper-4 {
+    font-family: "Josefin Sans-LightItalic", Helvetica;
+    font-style: italic;
+    color: #033aff;
+}
+
+.desktop .exprimente-o-melhor {
+    position: absolute;
+    top: 763px;
+    left: 492px;
+    font-family: "Jomhuria-Regular", Helvetica;
+    font-weight: 400;
+    color: #efddff;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.desktop .text-wrapper-5 {
+    font-family: "Jomhuria-Regular", Helvetica;
+    font-weight: 400;
+    color: #efddff;
+    font-size: 40px;
+    letter-spacing: 0;
+}
+
+.desktop .text-wrapper-6 {
+    font-family: "Josefin Sans-LightItalic", Helvetica;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.desktop .p {
+    position: absolute;
+    width: 264px;
+    top: 1362px;
+    left: 571px;
+    font-family: "Josefin Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #a774d3;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.desktop .hambuguer-interativo {
+    position: absolute;
+    width: 361px;
+    height: 446px;
+    top: 860px;
+    left: 528px;
+}
+
+.desktop .div-wrapper {
+    position: absolute;
+    width: 349px;
+    height: 77px;
+    top: 0;
+    left: 2px;
+    background-color: #cdcaca;
+}
+
+.desktop .text-wrapper-7 {
+    position: absolute;
+    top: 33px;
+    left: 154px;
+    font-family: "Josefin Sans-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.desktop .overlap-2 {
+    position: absolute;
+    width: 349px;
+    height: 77px;
+    top: 92px;
+    left: 1px;
+    background-color: #cdcaca;
+}
+
+.desktop .text-wrapper-8 {
+    position: absolute;
+    top: 31px;
+    left: 144px;
+    font-family: "Josefin Sans-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.desktop .overlap-3 {
+    position: absolute;
+    width: 349px;
+    height: 77px;
+    top: 184px;
+    left: 1px;
+    background-color: #cdcaca;
+}
+
+.desktop .text-wrapper-9 {
+    position: absolute;
+    top: 31px;
+    left: 145px;
+    font-family: "Josefin Sans-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.desktop .overlap-4 {
+    position: absolute;
+    width: 349px;
+    height: 77px;
+    top: 277px;
+    left: 2px;
+    background-color: #cdcaca;
+}
+
+.desktop .text-wrapper-10 {
+    position: absolute;
+    top: 30px;
+    left: 125px;
+    font-family: "Josefin Sans-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.desktop .overlap-5 {
+    position: absolute;
+    width: 349px;
+    height: 77px;
+    top: 369px;
+    left: 0;
+    background-color: #cdcaca;
+}
+
+.desktop .text-wrapper-11 {
+    position: absolute;
+    top: 32px;
+    left: 147px;
+    font-family: "Josefin Sans-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.desktop .overlap-6 {
+    position: absolute;
+    width: 1396px;
+    height: 720px;
+    top: 2183px;
+    left: 0;
+    background-image: url(./img/rectangle-12.svg);
+    background-size: 100% 100%;
+}
+
+.desktop .fa-a-sua-reserva {
+    position: absolute;
+    top: 41px;
+    left: 616px;
+    font-family: "Josefin Sans-Light", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.desktop .text-wrapper-12 {
+    font-weight: 300;
+}
+
+.desktop .text-wrapper-13 {
+    font-family: "Jomhuria-Regular", Helvetica;
+    font-size: 48px;
+}
+
+.desktop .group-3 {
+    position: absolute;
+    width: 328px;
+    height: 381px;
+    top: 143px;
+    left: 238px;
+}
+
+.desktop .overlap-7 {
+    position: absolute;
+    width: 326px;
+    height: 354px;
+    top: 0;
+    left: 0;
+    background-color: #d9d9d9;
+}
+
+.desktop .text-wrapper-14 {
+    top: 172px;
+    left: 72px;
+    font-family: "Josefin Sans-Light", Helvetica;
+    font-weight: 300;
+    font-size: 24px;
+    position: absolute;
+    color: #000000;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.desktop .ellipse {
+    left: 119px;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 365px;
+    background-color: #d9d9d9;
+    border-radius: 8px;
+}
+
+.desktop .ellipse-2 {
+    left: 155px;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 365px;
+    background-color: #d9d9d9;
+    border-radius: 8px;
+}
+
+.desktop .ellipse-3 {
+    left: 191px;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 365px;
+    background-color: #d9d9d9;
+    border-radius: 8px;
+}
+
+.desktop .group-wrapper {
+    position: absolute;
+    width: 499px;
+    height: 178px;
+    top: 238px;
+    left: 706px;
+}
+
+.desktop .group-4 {
+    position: relative;
+    height: 178px;
+}
+
+.desktop .group-5 {
+    position: absolute;
+    width: 492px;
+    height: 118px;
+    top: 0;
+    left: 11px;
+}
+
+.desktop .text-wrapper-15 {
+    position: absolute;
+    width: 430px;
+    top: 0;
+    left: 0;
+    font-family: "Koulen-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.desktop .nos-temos-um-espa-o {
+    position: absolute;
+    top: 58px;
+    left: 0;
+    font-family: "Josefin Sans-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.desktop .overlap-group-wrapper {
+    position: absolute;
+    width: 162px;
+    height: 40px;
+    top: 138px;
+    left: 0;
+}
+
+.desktop .overlap-group-3 {
+    position: relative;
+    width: 160px;
+    height: 40px;
+    background-color: #d9d9d9;
+    border-radius: 10px;
+}
+
+.desktop .text-wrapper-16 {
+    position: absolute;
+    top: 10px;
+    left: 26px;
+    font-family: "Josefin Sans-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.desktop .tipogrfia-inicio {
+    position: absolute;
+    width: 589px;
+    height: 85px;
+    top: 264px;
+    left: 168px;
+}
+
+.desktop .text-wrapper-17 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Josefin Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.desktop .there-are-many {
+    position: absolute;
+    width: 565px;
+    top: 37px;
+    left: 20px;
+    font-family: "Josefin Sans-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.desktop .botton-cardapio {
+    position: absolute;
+    width: 138px;
+    height: 47px;
+    top: 452px;
+    left: 188px;
+}
+
+.desktop .overlap-group-4 {
+    position: relative;
+    width: 136px;
+    height: 47px;
+    background-color: #ff570a;
+    border-radius: 8px;
+}
+
+.desktop .text-wrapper-18 {
+    position: absolute;
+    width: 104px;
+    top: 17px;
+    left: 16px;
+    font-family: "Josefin Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.desktop .imgens-de-haburguer {
+    position: absolute;
+    width: 353px;
+    height: 344px;
+    top: 179px;
+    left: 799px;
+}
+
+.desktop .overlap-8 {
+    position: relative;
+    width: 351px;
+    height: 344px;
+    background-color: #d9d9d9;
+}
+
+.desktop .text-wrapper-19 {
+    width: 176px;
+    top: 161px;
+    left: 87px;
+    font-family: "Josefin Sans-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 20px;
+    position: absolute;
+    color: #000000;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.desktop .group-6 {
+    position: absolute;
+    width: 160px;
+    height: 55px;
+    top: 679px;
+    left: 609px;
+}
+
+.desktop .vector {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 35px;
+    left: 69px;
+}
+
+.desktop .text-wrapper-20 {
+    position: absolute;
+    width: 158px;
+    top: 0;
+    left: 0;
+    font-family: "Josefin Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.desktop .group-7 {
+    position: absolute;
+    width: 975px;
+    height: 37px;
+    top: 26px;
+    left: 185px;
+}
+
+.desktop .text-wrapper-21 {
+    position: absolute;
+    width: 68px;
+    top: 1px;
+    left: 0;
+    font-family: "Josefin Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffb6be;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.desktop .endereo {
+    position: absolute;
+    width: 155px;
+    height: 28px;
+    top: 4px;
+    left: 446px;
+}
+
+.desktop .overlap-group-5 {
+    position: relative;
+    width: 153px;
+    height: 28px;
+}
+
+.desktop .text-wrapper-22 {
+    position: absolute;
+    width: 139px;
+    top: 0;
+    left: 14px;
+    font-family: "Josefin Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffb6be;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.desktop .arcticons-google {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 0;
+    left: 0;
+}
+
+.desktop .telefone {
+    position: absolute;
+    width: 126px;
+    height: 27px;
+    top: 5px;
+    left: 703px;
+}
+
+.desktop .group-8 {
+    position: relative;
+    width: 128px;
+    height: 27px;
+}
+
+.desktop .text-wrapper-23 {
+    position: absolute;
+    width: 90px;
+    top: 7px;
+    left: 36px;
+    font-family: "Josefin Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffb6be;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.desktop .ri-whatsapp-fill {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    top: 0;
+    left: 0;
+}
+
+.desktop .majesticons-menu {
+    position: absolute;
+    width: 31px;
+    height: 37px;
+    top: 0;
+    left: 942px;
+}
+
+.desktop .rectangle-6 {
+    position: absolute;
+    width: 1396px;
+    height: 461px;
+    top: 2903px;
+    left: 0;
+    background-color: #d9d9d9;
+}
